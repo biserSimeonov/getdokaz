@@ -123,5 +123,5 @@ Dokaz makes that attempt on your machine:
 ---
 
 <div align="center">
-<sub><a href="https://getdokaz.com/">getdokaz.com</a> · <a href="https://getdokaz.com/privacy/">Приватность</a> · <a href="https://getdokaz.com/terms/">Условия</a> · support@getdokaz.com</sub>
+<sub><a href="https://getdokaz.com/">getdokaz.com</a> · <a href="https://getdokaz.com/privacy/">Приватность</a> · <a href="https://getdokaz.com/terms/">Условия</a> · <a href="mailto:support@getdokaz.com">support@getdokaz.com</a></sub>
 </div>
