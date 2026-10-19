@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#010409"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="820" height="360" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  <text x="32" y="48" fill="#7d8590" font-size="15">dokaz · notes-supabase · версия на проверке</text>
+
+  <!-- observer log -->
+  <text x="32" y="96"  fill="#3fb950" font-size="15">01  owner   GET /notes?id=eq.&lt;своя заметка&gt;   →  200   ok</text>
+  <text x="32" y="124" fill="#7d8590" font-size="15">02  аноним  GET /notes?id=eq.&lt;чужая заметка&gt;   →  200</text>
+  <text x="32" y="152" fill="#f85149" font-size="15">03  атакующий GET /notes?id=eq.&lt;чужая заметка&gt; →  200</text>
+  <text x="56" y="180" fill="#f85149" font-size="15">в ответе — защищённая заметка владельца</text>
+
+  <!-- stamp -->
+  <g transform="translate(560,70) rotate(-8)">
+    <rect x="0" y="0" width="210" height="64" rx="10" fill="none" stroke="#f85149" stroke-width="4"/>
+    <text x="105" y="43" fill="#f85149" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="2">ВЗЛОМ</text>
+  </g>
+
+  <line x1="32" y1="212" x2="788" y2="212" stroke="#30363d" stroke-width="1"/>
+
+  <text x="32" y="252" fill="#e6edf3" font-size="22" font-weight="700">ВЕРДИКТ:
+    <tspan fill="#f85149">НЕ ГОДЕН</tspan>
+  </text>
+  <text x="32" y="286" fill="#7d8590" font-size="15">разграничение не выдержано: атакующий получил защищённые данные владельца</text>
+  <text x="32" y="316" fill="#7d8590" font-size="15">журнал ведёт независимый наблюдатель — вердикт выносит не модель, а реальные запросы</text>
+  <text x="32" y="344" fill="#58a6ff" font-size="14">getdokaz.com</text>
+</svg>
